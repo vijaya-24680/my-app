@@ -1,20 +1,10 @@
-{/*import Profile from'./component1.jsx'*/}
-{/*import "./APP.css";
-import Welcome from "./welcome";*/}
+import Style from './Style.jsx';
 function App(){
-  return (
+  return(
     <div>
-      {/*<Profile/>*/}
-      {/*<Welcome name="Priya"/>
-      <Welcome name="Rahul"/>*/}
-      <h1> Mywebsite</h1>
-      {isLoggedin ? (
-        <button ><Logout></Logout></button>
-      ) : (
-        <button>Login</button>
-      )}
+      <Style />
     </div>
-  );
+  )
 }
 export default App;
 
