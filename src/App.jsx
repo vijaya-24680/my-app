@@ -1,18 +1,16 @@
-
-function  Style(){
-  const boxStyle={
-    background:"black",
-    paddind:"16px",
-    borderRadius:"8px",
-    color:"red",
-  };
-  return (
-    <div className="card" style={boxStyle}>
-      I am styled
+import Style from './Style.jsx';
+import Event from'./Event';
+import Change from'./Change';
+import {Hook} from'./Hook';
+function App(){
+  return(
+    <div>
+      <Hook />
     </div>
-  );
+  )
 }
-export default Style;
+export default App;
+
 
 
 
